@@ -9,7 +9,7 @@ folder = os.path.join(os.getcwd(),"BulkImages")
 imgList = os.listdir(folder)
 
 try:
-    os.mkdir("BulkImagesResult")
+    os.mkdir("../AutomatingRealLifeTasksWithPython/BulkImagesResult")
 except FileExistsError:
     print("Directory Exists")
 

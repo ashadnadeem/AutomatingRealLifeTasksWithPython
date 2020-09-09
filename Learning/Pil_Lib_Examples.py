@@ -4,7 +4,7 @@ __date__ = "9/1/2020"
 from PIL import Image
 
 #Opening Image as im
-im = Image.open("ImagesExample/example.jpg")
+im = Image.open("../ImagesExample/example.jpg")
 
 #Resizing
 new_im = im.resize((640,480))
